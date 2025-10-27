@@ -100,7 +100,7 @@ class TimerApp:
         ttk.Button(self.tab5, text="Analizuj", command=self.analyze_log).pack(pady=5)
 
         self.result_labels = {}
-        for cat in ["trivial", "easy", "medium", "hard", "challenging"]:
+        for cat in ["trivial", "easy", "medium", "hard", "challenging", "bane", "archfoe", "nemesis"]:
             frame = ttk.Frame(self.tab5)
             frame.pack(fill="x", padx=10, pady=2)
             ttk.Label(frame, text=cat.capitalize(), width=12).pack(side="left")
@@ -148,7 +148,7 @@ class TimerApp:
             try:
                 count_str, name = line.split("x ", 1)
                 count = eval(count_str.strip())  # obsługa np. 150+50
-                name = name.strip().capitalize()
+                name = name.strip().lower()
             except Exception as e:
                 print(f"[DEBUG] Błąd parsowania '{line}': {e}")
                 continue

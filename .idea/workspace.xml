@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fe0ff255-89e6-4137-a7bb-1ec5b59fa8f9" name="Changes" comment="added bestiary dict">
+    <list default="true" id="fe0ff255-89e6-4137-a7bb-1ec5b59fa8f9" name="Changes" comment="added bosstiary entries">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bestiary_data.py" beforeDir="false" afterPath="$PROJECT_DIR$/bestiary_data.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +40,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.bestiary_data.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -69,11 +71,20 @@
       <option name="project" value="LOCAL" />
       <updated>1761583720561</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added bosstiary entries">
+      <option name="closed" value="true" />
+      <created>1761585374750</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1761585374750</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added bestiary dict" />
-    <option name="LAST_COMMIT_MESSAGE" value="added bestiary dict" />
+    <MESSAGE value="added bosstiary entries" />
+    <option name="LAST_COMMIT_MESSAGE" value="added bosstiary entries" />
   </component>
 </project>

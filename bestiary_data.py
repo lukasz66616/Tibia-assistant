@@ -898,6 +898,5 @@ bosstiary_dict = {
     'The Last Lore Keeper': 'nemesis',
     'World Devourer': 'nemesis',
 }
-
+bestiary_dict = bestiary_dict | bosstiary_dict
 bestiary_dict = {k.lower(): v for k, v in bestiary_dict.items()}
-bosstiary_dict = {k.lower(): v for k, v in bosstiary_dict.items()}
